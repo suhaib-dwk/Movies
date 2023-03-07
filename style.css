@@ -337,6 +337,7 @@ header section .cards{
     display: flex;
     align-items: center;
     overflow-x: auto;
+    scroll-behavior: smooth;
 }
 
 header section .cards::-webkit-scrollbar{
@@ -348,6 +349,7 @@ header section .cards .card{
     min-width: 130px;
     height: 180px;
     /* border: 1px solid #fff; */
+    margin-right: 10px;
     border-radius: 8px;
     background: #000;
     transition: 0.3s linear;
@@ -440,7 +442,7 @@ header section .cards .card:hover .rest_card{
     opacity: 1;
 }
 
-header section .cards .bi-chevron-left , .bi-chevron-right {
+header section  .bi-chevron-left, .bi-chevron-right {
     position: absolute;
     top: 50%;
     left: 3%;
